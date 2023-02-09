@@ -7,12 +7,12 @@ const Hero = () => {
       <div className="container mx-auto flex justify-around h-full">
         <div className="flex flex-col justify-center">
           <div className="font-semibold flex items-center uppercase">
-            <div className="w-10 h-[2px] bg-gray-500 mr-3"></div>Nove trendy!
+            <div className="w-10 h-[2px] bg-yellow-500 mr-3"></div>Nove trendy!
           </div>
           <h1 className="text-[70px] leading-[1.1] font-light mb-4">Jesenne zlavy prave teraz! <br/>
               <span className="font-semibold">ZENY</span>
           </h1>
-          <Link to={'/'} className="w-40 self-auto uppercase font-semibold border-b-2 border-primary">
+          <Link to={'/'} className="w-[120px] self-auto uppercase font-semibold border-b-2 border-yellow-500 border-primary">
             Objav viac!
           </Link>
         </div>
